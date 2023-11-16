@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BrewReview</title>
+</head>
+<style>
+    body{
+        background-image: url('https://img.freepik.com/premium-photo/empty-wooden-table-top-beer-pub-brick-walls-background-product-mockup-generative-ai_159242-25017.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
+<body>
+    <div class = 'title-container'>
+        <div class = 'content'>
+            <h1>BrewReview</h1>
+            <h1>BrewReview</h1>
+        </div>
+    </div>
+
+
+    <div class="brewery-container">
+        <div id="brewery-list" class="brewery-list">
+            <h2 id="brewery-list">List of Breweries</h2>
+        </div>
+
+        <div id="brewery-display" class="brewery-display">
+            <h2 id="brewery-name">Select a Brewery!</h2>
+            <p id="brewery-details"></p>
+            <a id="brewery-url" target="_blank"></a>
+            <div id="brewery-reviews" class="brewery-reviews"></div>
+            <form id="new-brewery-review">
+                <label for="brewery-review-input">New Brewery Review:</label>
+                <input type="text" name="brewery-review-input">
+                <input type="submit" value="Leave Review">
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
